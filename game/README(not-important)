@@ -1,0 +1,20 @@
+Pytania Odp
+
+Ile wątków, dla kogo.
+Waiting czeka na klientów, jak się klient połaczy to odpala wątek.
+Jak sie komunikuje klient serwer? Przez sockety.
+Sleep - zło; opóźnia gre; co sekunde sie odswierza -> sychro co sekundę.
+Jak porusza sie bestia. make_beast_move, choose_beast_move.
+Czy dobrze  są ustawione mutexy.
+
+Sychoronizacja to main loop z jednym sleepem. Wspomaga kolejkowanie.
+
+Mie ma pamieci wspoldzielonej, bo mam sockety. (Jeszcze może chodzić o plik game.h wspólny.)
+
+
+Odpalanie w konsoli ->
+cd /mnt/c/Users/USERFOLDER/CLionProjects/game
+
+make
+./server
+./client
